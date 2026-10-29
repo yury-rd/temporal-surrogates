@@ -1,0 +1,427 @@
+{
+  "schema": "SCALING-JOINTPHASE-01-results-v1",
+  "outcome_blind": true,
+  "visits": 732,
+  "people": 270,
+  "network_visits": 5124,
+  "surrogates_per_visit": 20,
+  "known_world": {
+    "N": 256,
+    "max_cross_spectrum_abs_error": 1.8189894035458565e-12,
+    "SampEn_difference": -0.004957257140767668,
+    "MFDFA_shape_RMS_difference": 0.3680804424694687,
+    "Higuchi_shape_RMS_difference": 0.04166854402300533
+  },
+  "all": {
+    "SampEn": {
+      "supported": 5124,
+      "unsupported": 0,
+      "rank1_fraction": 0.397736143637783,
+      "rank_le2_fraction": 0.4839968774395004,
+      "person_bootstrap95_rank1": [
+        0.3652487351529759,
+        0.4307259788205577
+      ]
+    },
+    "MFDFA_shape": {
+      "supported": 5124,
+      "unsupported": 0,
+      "rank1_fraction": 0.1752537080405933,
+      "rank_le2_fraction": 0.2689305230288837,
+      "person_bootstrap95_rank1": [
+        0.15616732207665415,
+        0.19527274582913753
+      ]
+    },
+    "Higuchi_shape": {
+      "supported": 5124,
+      "unsupported": 0,
+      "rank1_fraction": 0.49785323965651834,
+      "rank_le2_fraction": 0.5966042154566745,
+      "person_bootstrap95_rank1": [
+        0.4736116691370744,
+        0.5226691206201055
+      ]
+    }
+  },
+  "network": {
+    "Cont": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.3825136612021858,
+        "rank_le2_fraction": 0.4713114754098361,
+        "person_bootstrap95_rank1": [
+          0.34509939931350114,
+          0.42348778977638424
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.1680327868852459,
+        "rank_le2_fraction": 0.25,
+        "person_bootstrap95_rank1": [
+          0.13933950976226153,
+          0.19777346224933176
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.4726775956284153,
+        "rank_le2_fraction": 0.5792349726775956,
+        "person_bootstrap95_rank1": [
+          0.43168331050329195,
+          0.5162621859057299
+        ]
+      }
+    },
+    "Default": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.37158469945355194,
+        "rank_le2_fraction": 0.4453551912568306,
+        "person_bootstrap95_rank1": [
+          0.33105264105255583,
+          0.41585535465924894
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.1680327868852459,
+        "rank_le2_fraction": 0.2527322404371585,
+        "person_bootstrap95_rank1": [
+          0.1386412955465587,
+          0.19647696476964768
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.48360655737704916,
+        "rank_le2_fraction": 0.5997267759562842,
+        "person_bootstrap95_rank1": [
+          0.44397326034621115,
+          0.5238792304717993
+        ]
+      }
+    },
+    "DorsAttn": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.3975409836065574,
+        "rank_le2_fraction": 0.4849726775956284,
+        "person_bootstrap95_rank1": [
+          0.3551392332633988,
+          0.43820609512082503
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.1762295081967213,
+        "rank_le2_fraction": 0.27049180327868855,
+        "person_bootstrap95_rank1": [
+          0.14619053815410354,
+          0.2061485414732281
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.505464480874317,
+        "rank_le2_fraction": 0.5942622950819673,
+        "person_bootstrap95_rank1": [
+          0.4673659638388485,
+          0.546221063357223
+        ]
+      }
+    },
+    "Limbic": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.4166666666666667,
+        "rank_le2_fraction": 0.5136612021857924,
+        "person_bootstrap95_rank1": [
+          0.3743125239587797,
+          0.45886591549936323
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.20355191256830601,
+        "rank_le2_fraction": 0.3237704918032787,
+        "person_bootstrap95_rank1": [
+          0.17069887693296013,
+          0.23709292916139593
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.5573770491803278,
+        "rank_le2_fraction": 0.6502732240437158,
+        "person_bootstrap95_rank1": [
+          0.5218520159503767,
+          0.5950883171476581
+        ]
+      }
+    },
+    "SalVentAttn": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.3551912568306011,
+        "rank_le2_fraction": 0.4412568306010929,
+        "person_bootstrap95_rank1": [
+          0.31447877984084877,
+          0.39697954720246104
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.16939890710382513,
+        "rank_le2_fraction": 0.25136612021857924,
+        "person_bootstrap95_rank1": [
+          0.13877352882900734,
+          0.1977990893054284
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.4849726775956284,
+        "rank_le2_fraction": 0.5710382513661202,
+        "person_bootstrap95_rank1": [
+          0.4485084471318251,
+          0.5252808988764045
+        ]
+      }
+    },
+    "SomMot": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.42349726775956287,
+        "rank_le2_fraction": 0.5163934426229508,
+        "person_bootstrap95_rank1": [
+          0.38120232425223854,
+          0.4683250909975992
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.1871584699453552,
+        "rank_le2_fraction": 0.2855191256830601,
+        "person_bootstrap95_rank1": [
+          0.15760869565217392,
+          0.21686746987951808
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.51775956284153,
+        "rank_le2_fraction": 0.6202185792349727,
+        "person_bootstrap95_rank1": [
+          0.47763857701183365,
+          0.5585115331748803
+        ]
+      }
+    },
+    "Vis": {
+      "SampEn": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.4371584699453552,
+        "rank_le2_fraction": 0.5150273224043715,
+        "person_bootstrap95_rank1": [
+          0.39669421487603307,
+          0.48001156611267665
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.15437158469945356,
+        "rank_le2_fraction": 0.24863387978142076,
+        "person_bootstrap95_rank1": [
+          0.1286292234736218,
+          0.18267102672292546
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 732,
+        "unsupported": 0,
+        "rank1_fraction": 0.46311475409836067,
+        "rank_le2_fraction": 0.5614754098360656,
+        "person_bootstrap95_rank1": [
+          0.4273966863090228,
+          0.49729470717778357
+        ]
+      }
+    }
+  },
+  "technical": {
+    "FD_median": 0.19920198948225498,
+    "N_median": 197.0,
+    "low_FD": {
+      "SampEn": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.38524590163934425,
+        "rank_le2_fraction": 0.46643247462919596,
+        "person_bootstrap95_rank1": [
+          0.33779600155279504,
+          0.43091432474629193
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.16393442622950818,
+        "rank_le2_fraction": 0.25917252146760345,
+        "person_bootstrap95_rank1": [
+          0.14438881736026793,
+          0.18694415440594842
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.49492583918813426,
+        "rank_le2_fraction": 0.5846994535519126,
+        "person_bootstrap95_rank1": [
+          0.46055840656873437,
+          0.5309082003001774
+        ]
+      }
+    },
+    "high_FD": {
+      "SampEn": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.4102263856362217,
+        "rank_le2_fraction": 0.5015612802498048,
+        "person_bootstrap95_rank1": [
+          0.3664121400571782,
+          0.45409149659863945
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.1865729898516784,
+        "rank_le2_fraction": 0.2786885245901639,
+        "person_bootstrap95_rank1": [
+          0.1553125052888114,
+          0.21856368563685635
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 2562,
+        "unsupported": 0,
+        "rank1_fraction": 0.5007806401249024,
+        "rank_le2_fraction": 0.6085089773614364,
+        "person_bootstrap95_rank1": [
+          0.46575280693431376,
+          0.5353590629800308
+        ]
+      }
+    },
+    "short_N": {
+      "SampEn": {
+        "supported": 3115,
+        "unsupported": 0,
+        "rank1_fraction": 0.27929373996789725,
+        "rank_le2_fraction": 0.37913322632423757,
+        "person_bootstrap95_rank1": [
+          0.24475272261370917,
+          0.31542449091177344
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 3115,
+        "unsupported": 0,
+        "rank1_fraction": 0.14703049759229533,
+        "rank_le2_fraction": 0.2304975922953451,
+        "person_bootstrap95_rank1": [
+          0.12337450592885375,
+          0.17104005998978622
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 3115,
+        "unsupported": 0,
+        "rank1_fraction": 0.4449438202247191,
+        "rank_le2_fraction": 0.5492776886035313,
+        "person_bootstrap95_rank1": [
+          0.413341647570045,
+          0.4737006090314914
+        ]
+      }
+    },
+    "long_N": {
+      "SampEn": {
+        "supported": 2009,
+        "unsupported": 0,
+        "rank1_fraction": 0.5813837730214036,
+        "rank_le2_fraction": 0.646590343454455,
+        "person_bootstrap95_rank1": [
+          0.5311188373198742,
+          0.6320957639415845
+        ]
+      },
+      "MFDFA_shape": {
+        "supported": 2009,
+        "unsupported": 0,
+        "rank1_fraction": 0.2190144350423096,
+        "rank_le2_fraction": 0.3285216525634644,
+        "person_bootstrap95_rank1": [
+          0.19212421376532876,
+          0.2484870143549309
+        ]
+      },
+      "Higuchi_shape": {
+        "supported": 2009,
+        "unsupported": 0,
+        "rank1_fraction": 0.5798904927824788,
+        "rank_le2_fraction": 0.6699850671976108,
+        "person_bootstrap95_rank1": [
+          0.5407031262544357,
+          0.6197209674945028
+        ]
+      }
+    }
+  },
+  "cross_errors": {
+    "n": 14640,
+    "median": 3.119435983750574e-16,
+    "max": 9.781263201311945e-16
+  },
+  "FC_errors": {
+    "n": 14640,
+    "median": 1.0325074129013956e-14,
+    "max": 7.149836278586008e-14
+  },
+  "marginal_drift": {
+    "n": 102480,
+    "median": 0.16462111946096364,
+    "q95": 0.4185190875793074,
+    "max": 1.0671525792312142
+  },
+  "IAAFT_rank1": {
+    "SampEn": 0.21740827478532396,
+    "MFDFA_shape": 0.12724434035909446,
+    "Higuchi_shape": 0.4416471506635441
+  },
+  "scope": "Exact seven-network second-order reference, amplitude marginal not preserved; conditional ranks descriptive, not formal p-values."
+}
