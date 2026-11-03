@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript below when using this code or its saved results."
+type: software
+title: "Temporal surrogates"
+authors:
+  - family-names: Volkov
+    given-names: Aleksandr
+  - family-names: Maximov
+    given-names: Yury
+  - family-names: Chattopadhyay
+    given-names: Tamoghna
+  - family-names: Thompson
+    given-names: Paul M.
+  - family-names: Gabitov
+    given-names: Ildar
+repository-code: "https://github.com/yury-rd/temporal-surrogates"
+url: "https://github.com/yury-rd/temporal-surrogates"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Temporal Structure in Resting-State fMRI Under Marginal and Cross-Spectral Surrogate Controls"
+  authors:
+    - family-names: Volkov
+      given-names: Aleksandr
+    - family-names: Maximov
+      given-names: Yury
+    - family-names: Chattopadhyay
+      given-names: Tamoghna
+    - family-names: Thompson
+      given-names: Paul M.
+    - family-names: Gabitov
+      given-names: Ildar
+  url: "https://github.com/yury-rd/temporal-surrogates"
+  notes: "Manuscript for the IEEE International Symposium on Biomedical Imaging (ISBI)."
